@@ -6,6 +6,7 @@ public class TypeCasting {
 		int x=10,y=6;
 		float f=(float)x/y;
 		System.out.println(f);
+		
 	}
 
 }
