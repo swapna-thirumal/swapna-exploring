@@ -11,12 +11,12 @@ public class FlowControl1 {
 		{
 	      for(j=1;j<=4;j++) 
 	      {
-			System.out.print(c+ " ");
-			
+			 System.out.print(c+ " ");
 			}
+			
 	      System.out.println();
-				
+		}	
 		}
 	}
 
-}
+
