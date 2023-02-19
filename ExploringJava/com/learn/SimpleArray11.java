@@ -6,7 +6,7 @@ public class SimpleArray11 {
 		int i=22;
 		int[] x= {10,20,30,40};
 		
-		if(x[0]<=1)
+		if(x[0]<=i)
 		{
 			System.out.print("i is bigger");
 		}
