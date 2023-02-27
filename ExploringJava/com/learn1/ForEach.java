@@ -5,10 +5,11 @@ public class ForEach
 
 	public static void main(String[] args) 
 	{
-		int[] x = {5,6,7,8};
-		for(int x1 : x)
+		String[]  s = {"swap","shru","mal"};
+		//int[] x = {5,6,7,8};
+		for(String s1 : s)
 		{
-			System.out.println("Thr value of x1 is : " + x1);
+			System.out.println("The value of s1 is : " + s1);
 		}
 			
 	}
