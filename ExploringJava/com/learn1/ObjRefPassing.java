@@ -8,10 +8,13 @@ class Task
 		 this.a=a;
 		 this.b=b;
 	}
-	void meth(Task t)
+	void meth(int a, int b)
+	//void meth(Task t)
 	{
-		t.a++;
-		t.b--;
+		a++;
+		b--;
+		//t.a ++;
+		//t.b --;
 	}
 	
 }
@@ -24,7 +27,8 @@ public class ObjRefPassing
 		Task t1 = new Task(2,3);
 		System.out.println("before method call a,b :" + t1.a +"," + t1.b);
 		
-		t1.meth(t1);
+		//t1.meth(t1);
+		t1.meth(4,5);
 		System.out.println("After method call a,b :" + t1.a +"," + t1.b);
 		
 		
