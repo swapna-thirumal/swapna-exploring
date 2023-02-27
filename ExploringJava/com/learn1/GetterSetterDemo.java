@@ -35,6 +35,7 @@ class Data
 		obj1.setName("shru");
 		
 		System.out.println(obj.getName() + ":" + obj.getAge());
+		
 		System.out.println(obj1.getName() + ":" + obj1.getAge());
 		
 	}
