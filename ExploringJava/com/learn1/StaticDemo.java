@@ -13,8 +13,7 @@ class Mobile{
     public static void show1(Mobile ob) {
     	
     	System.out.println(ob.brand + ":" + ob.price + ":" +name);
-    	
-    }
+    	}
   
 }
 
