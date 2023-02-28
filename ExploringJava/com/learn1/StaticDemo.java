@@ -1,9 +1,9 @@
-package com.learn1;
+ package com.learn1;
 class Mobile{
 	
 	String brand;
 	int price;
-	 static String name;
+	static String name;
 
     public void show(){
     	
@@ -28,18 +28,18 @@ public class StaticDemo {
 		
 		ob.brand = "apple";
 		ob.price = 100;
-		ob.name = "phone";
+		Mobile.name = "phone";
 		
 		ob1.brand = "nokia";
 		ob1.price = 30;
-		ob1.name = "phone";
+		Mobile.name = "phone";
 		
 		ob2.brand = "samesung";
 		ob2.price = 50;
-		ob2.name = "phone";
+		Mobile.name = "phone";
 		
 		
-		ob2.name="cell";
+		ob1.name="cell";
 		
 		ob.show();
 		ob1.show();
