@@ -42,15 +42,15 @@ class SubMybox extends MyBox
 	 SubMybox(double w,double d,double h,double m)
 		{
 		 	super(w,d,h);
-		 	width = w;
+		 	/*width = w;
 			depth = d;
-			height= h;
+			height= h;*/
 			weight= m;
 		}
 	 SubMybox()
 	 	{
-		 super();
-		 weight = 1;
+		 //super();
+		 //weight = 1;
 	 	} 
 	 	
 	 SubMybox(double length, double m)
@@ -87,7 +87,7 @@ public class InheritanceBookDemo
 		System.out.println("weight of box3 is:" + box3.weight);
 		
 		vol = box4.volume();
-		System.out.println("volume of box3 is:" + vol);
+		System.out.println("volume of box is:" + vol);
 		System.out.println("weight of box3 is:" + box4.weight);
 	}	
 }
