@@ -1,12 +1,12 @@
 package com.learn1;
 class Figure
 {
-	double d1;
-	double d2;
+	double a;
+	double b;
 	Figure(double a, double b)
 	{
-		d1 = a;
-		d2 = b;
+		this.a = a;
+		this.b = b;
 	}
 	double area()
 	{
@@ -17,8 +17,8 @@ class Figure
 }
 class Rectangle extends Figure
 {
-	 double a;
-	 double b;
+	 //double a;
+	 //double b;
 	 Rectangle(double a, double b)
 	 {
 		 super(a,b);
@@ -26,13 +26,13 @@ class Rectangle extends Figure
 	 double area()
 	 {
 		 System.out.println("in rectangle:"); 
-		 return d1*d2;
+		 return a*b;
 	 }
 }
 class Triangle extends Figure
 {
-	double a;
-	 double b;
+	//double a;
+	// double b;
 	 Triangle(double a, double b)
 	 {
 		 super(a,b);
@@ -40,7 +40,7 @@ class Triangle extends Figure
 	 double area()
 	 {
 		 System.out.println("in triangle:"); 
-		 return d1*d2/2;
+		 return a*b/2;
 	 }
 }
 
