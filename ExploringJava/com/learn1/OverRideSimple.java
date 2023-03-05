@@ -14,7 +14,7 @@ class M
 }
 class N extends M
 {
-		int c;
+	int c;
 	N(int a, int b,int c)
 	{
 		super(a,b);
@@ -22,6 +22,7 @@ class N extends M
 	}
 	void show()
 	{
+		//super.show();
 		System.out.println("value of c is :  " + c);
 	}
 	
@@ -34,9 +35,11 @@ public class OverRideSimple
 	{
 		N obj1 = new N(2,4,8);
 		N obj2 = new N(12,14,18);
-		
 		obj1.show();
 		obj2.show();
+		
+		M obj3 = new N(1,2,3);
+		obj3.show();
 		
 	}
 
