@@ -9,9 +9,9 @@ class CallBack implements Call
 	{
 		System.out.println("call from :" + p);
 	}
-	void video()
+	void video(double v)
 	{
-		System.out.println("video from :");
+		System.out.println("video from :" + v);
 	}
 }
 
@@ -22,7 +22,8 @@ public class InterfaceDemo3
 	{
 		Call c = new CallBack();
 		c.call(911);
-
+		CallBack c1 = new CallBack();
+		c1.video(9.11);
 	}
 
 }
