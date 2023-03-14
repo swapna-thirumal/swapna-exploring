@@ -2,7 +2,8 @@ package com.learn2;
 
 public class ExceptionDemo3 
 {
-	static void ExceptionDemo3()
+	//static void ExceptionDemo3()
+	public static void main(String[] args)
 	{
 	try
 	{
@@ -11,12 +12,13 @@ public class ExceptionDemo3
 	catch(NullPointerException e)
 	{
 		System.out.println("caught inside ExceptionDemo3 ");
-		throw e;
+		System.out.println(e);
+		//throw e;
 	}
 }
 
 
-	public static void main(String[] args)
+	/*public static void main(String[] args)
 	{
 		try
 		{
@@ -27,6 +29,6 @@ public class ExceptionDemo3
 			System.out.println("recaught :" + e);
 		}
 			
-	}
+	}*/
 
 }
