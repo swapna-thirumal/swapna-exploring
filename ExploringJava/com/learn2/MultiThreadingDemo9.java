@@ -1,7 +1,7 @@
 package com.learn2;
 class Display
 {
-	public synchronized void  wish(String name)
+	public static synchronized void  wish(String name)
 	{
 		for(int i=0;i<3;i++)
 			{
@@ -38,9 +38,10 @@ public class MultiThreadingDemo9
 
 	public static void main(String[] args)
 	{
-		Display d = new Display();
-		Person t1 = new Person(d,"pam");
-		Person t2 = new Person(d,"sam");
+		Display d1 = new Display();
+		Display d2= new Display();
+		Person t1 = new Person(d1,"pam");
+		Person t2 = new Person(d2,"sam");
 	
 		t1.start();
 		t2.start();
