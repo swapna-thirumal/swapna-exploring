@@ -9,7 +9,7 @@ public class LambdaDemo3
 
 	public static void main(String[] args)
 	{
-		Word w = (String s)->s.length();
+		Word w =  s->s.length();
 		
 		int length = w.length("good job");
 		

@@ -9,7 +9,7 @@ public class LambdaDemo2
 
 	public static void main(String[] args) 
 	{
-		Math m =(int a, int b)->a+b;
+		Math m =(a, b)->a+b;
 		System.out.println(m.add(4, 5));
 	}
 
