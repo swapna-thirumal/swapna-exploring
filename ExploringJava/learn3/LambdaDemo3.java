@@ -11,6 +11,7 @@ public class LambdaDemo3
 	{
 		Word w =  s->s.length();
 		int length = w.length("good job");
+		
 		System.out.println(length);
 			
 	}
