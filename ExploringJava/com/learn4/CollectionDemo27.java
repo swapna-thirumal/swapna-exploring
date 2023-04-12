@@ -16,6 +16,7 @@ public class CollectionDemo27
 		System.out.println(q);
 	}
 }
+
 class QueueComparator implements Comparator 
 {
 	public int compare(Object o1,Object o2)
