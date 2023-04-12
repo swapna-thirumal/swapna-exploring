@@ -12,6 +12,7 @@ public class CollectionDemo27
 		q.offer("moon");
 		q.offer("air");
 		q.offer("sky");
+	
 		System.out.println(q);
 	}
 }
