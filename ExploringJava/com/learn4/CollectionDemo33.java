@@ -22,6 +22,9 @@ public class CollectionDemo33
 		l.add(10);
 		l.add(5);
 		System.out.println(l);
+		Collections.reverse(l);
+		System.out.println(l);
+		
 		Collections.sort(l,m);
 		System.out.println(l);
 		System.out.println(Collections.binarySearch(l, 10,m));
