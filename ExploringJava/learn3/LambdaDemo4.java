@@ -15,6 +15,7 @@ public class LambdaDemo4
 		};
 		
 		System.out.println(d.division(16,0));
+		System.out.println(d.division(16,4));
 	}
 
 }

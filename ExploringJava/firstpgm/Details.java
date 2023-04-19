@@ -10,5 +10,4 @@ public class Details
 		System.out.println("Jersey City,");
 		System.out.println("NJ-08838.");
 	}
-
 }

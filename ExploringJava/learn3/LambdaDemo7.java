@@ -13,7 +13,7 @@ public class LambdaDemo7
 		l.add(25);
 		l.add(18);
 		System.out.println(l);
-		Comparator<Integer> c = (I1,I2)->(I1<I2)?-1:(I1>I2)?+1:0;
+		Comparator<Integer> c = (I1,I2)->(I1<I2)?+1:(I1>I2)?- 1:0;
 		Collections.sort(l,c);
 		System.out.println(l);
 		

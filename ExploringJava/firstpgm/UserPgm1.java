@@ -12,5 +12,4 @@ public class UserPgm1 {
 		System.out.println("full name: "+s+"Thirumal");
 		sc.close();
 	}
-
 }

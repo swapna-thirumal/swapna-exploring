@@ -18,6 +18,10 @@ public class CollectionDemo1
 		l.add(2,"n");
 		l.add("day");
 		System.out.println(l);
+		for (String s:l)
+		{
+			System.out.println(s);
+		}
 	}
 
 }

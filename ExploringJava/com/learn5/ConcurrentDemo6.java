@@ -13,8 +13,6 @@ public class ConcurrentDemo6 {
 		s.add(10);
 		s.add(null);
 		s.add("A");
-		
-		
 		System.out.println(s);
 		
 	}
