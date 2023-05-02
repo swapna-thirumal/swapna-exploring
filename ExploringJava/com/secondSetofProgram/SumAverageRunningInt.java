@@ -8,16 +8,18 @@ public class SumAverageRunningInt
 		int lowerBound = 1;
 		int upperBound = 100;
 		int sum =0;
+		//int count=0;
 		
 		for(int i=lowerBound;i<=upperBound;i++)
 		{
 			sum+=i;
+			//count++;
 		}
 		System.out.println("The sum of "+ lowerBound+ " to "+ upperBound+" is " +sum);
 		double average = (double)sum/upperBound;
 		System.out.println("The average is " + average);
 		
-		
+		//System.out.println(count);
 	}
 
 }

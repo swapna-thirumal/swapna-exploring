@@ -27,6 +27,7 @@ public class SumAverageRunningInt_whileLoop
 		
 		System.out.println("The sum of "+ lowerBound+ " to "+ upperBound+" is " +sum);
 		System.out.println("The average is " + average);
+	
 		
 	}
 }
