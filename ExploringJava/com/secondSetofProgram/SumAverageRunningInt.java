@@ -17,6 +17,7 @@ public class SumAverageRunningInt
 		double average = (double)sum/upperBound;
 		System.out.println("The average is " + average);
 		
+		
 	}
 
 }
