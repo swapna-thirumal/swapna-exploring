@@ -19,7 +19,7 @@ public class SumAverageModified {
 		double average = (double)sum/count;
 		System.out.println("The average is " + average);
 		
-		System.out.println("Number of counts in the specified range "+count);
+		//System.out.println("Number of counts in the specified range "+count);
 	}
 
 }
