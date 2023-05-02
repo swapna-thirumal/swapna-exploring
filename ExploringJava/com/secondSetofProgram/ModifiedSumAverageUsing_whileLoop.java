@@ -19,8 +19,8 @@ public class ModifiedSumAverageUsing_whileLoop
 		double average = (double)sum/count;
 		System.out.println("The sum of "+ lowerBound+ " to "+ upperBound+" is " +sum);
 		System.out.println("The average is " + average);
-		System.out.println("Number of counts in the specified range  "+count);
-
+		//System.out.println("Number of counts in the specified range  "+count);
+		
 	}
 
 }

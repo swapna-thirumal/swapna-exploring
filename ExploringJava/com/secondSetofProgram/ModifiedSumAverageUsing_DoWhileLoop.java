@@ -21,7 +21,7 @@ public class ModifiedSumAverageUsing_DoWhileLoop
 		
 		System.out.println("The sum of "+ lowerBound+ " to "+ upperBound+" is " +sum);
 		System.out.println("The average is " + average);
-		
+		//System.out.println("Number of counts in the specified range  "+count);
 
 	}
 
