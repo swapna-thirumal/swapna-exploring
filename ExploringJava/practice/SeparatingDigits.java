@@ -9,6 +9,7 @@ public class SeparatingDigits {
 		System.out.println("enter your number");
 		int num = sc.nextInt();
 		int number = num;
+		
 		sc.close();
 		 int sum=0;
 		while(num>0)
